@@ -1,0 +1,255 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Muli:400,600,700');
+
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Muli', sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+
+a {
+    text-decoration: none !important;
+    outline: none;
+}
+
+
+}
+
+.back-to-top i {
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    line-height: 30px;
+}
+
+
+
+
+.section {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    position: relative;
+    background-color: #fff;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+
+
+.navbar-custom {
+    background-color: transparent;
+    padding: 20px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-custom .navbar-nav li a {
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-size: 14px;
+    background-color: transparent !important;
+    margin: 0 7px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    transition: all 0.5s;
+}
+
+.navbar-custom .navbar-brand {
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+
+
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:active,
+.navbar-custom .navbar-nav li.active a {
+    color: #fff !important;
+}
+
+.navbar-custom.nav-sticky {
+    background-color: #1a1a1a !important;
+    padding: 15px 0px;
+}
+
+
+
+.nav-social .nav-number span {
+    font-size: 13px;
+}
+
+
+
+
+
+.bg-home {
+    background-image: url('../images/pattern.jpg');
+    position: relative;
+    padding: 190px 0;
+}
+
+.home-title {
+    font-size: 38px;
+    line-height: 1.4;
+}
+
+.home-subtitle {
+    font-size: 16px;
+    line-height: 2.0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team-social li a {
+    color: #808083;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.team-social li a:hover {
+    color: #fff;
+}
+
+.team-box.active {
+    box-shadow: 0px 0px 20px -4px #e8e8e8;
+}
+
+
+
+
+.faq-que {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000 !important;
+}
+
+.faq-que {
+    padding: 15px 0px;
+}
+
+
+
+.form-control {
+    margin-bottom: 25px;
+    box-shadow: none !important;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+}
+
+.contact-border {
+    width: 60px;
+    height: 3px;
+    margin: 20px 0px;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+
+
+#ajaxsuccess {
+    font-size: 16px;
+    width: 100%;
+    display: none;
+    clear: both;
+    margin: 8px 0px;
+}
+
+
+.contact-loader {
+    display: none;
+}
+
+#success_page {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#success_page h3 {
+    color: #0dba26;
+    font-size: 22px;
+}
+
+
+
+.social .social-icon {
+    border: 2px solid #868e96;
+    border-radius: 50%;
+    transition: all 0.5s;
+    width: 42px;
+    height: 42px;
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.footer-terms li a:hover {
+    color: #fff !important;
+    transition: all 0.5s;
+}
+
+.footer-terms li::after {
+    content: "|";
+    margin: 0 20px;
+    color: #757575
+}
+
+.footer-terms li:last-child:after {
+    content: "";
+}
+
+.footer {
+    background-image: url('../images/pattern.jpg');
+    position: relative;
+}
+
+
+
+
+
